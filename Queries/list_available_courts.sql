@@ -1,4 +1,4 @@
--- (E) List Available courts for a certain day and time -----------------------------------------------------------------------------------------
+-- List Available courts for a certain day and time -----------------------------------------------------------------------------------------
 SELECT c.Court_ID, c.Court_Number
 FROM Court c
 WHERE NOT EXISTS (
